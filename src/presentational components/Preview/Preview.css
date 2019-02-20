@@ -1,0 +1,12 @@
+#markdown {
+
+}
+
+#preview {
+    text-align: left;
+    background: red;
+    min-height: 200px;
+    width: 800px;
+    margin-left: 180px;
+    margin-right: 80px;
+}
