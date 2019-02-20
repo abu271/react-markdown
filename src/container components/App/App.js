@@ -4,6 +4,7 @@ import '../../presentational components/Editor/Editor'
 import Editor from '../../presentational components/Editor/Editor'
 import Preview from '../../presentational components/Preview/Preview';
 
+
 class App extends Component {
   constructor(props) {
     super(props)
@@ -23,8 +24,8 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Editor type = {this.handleChange}/>
-        <Preview value = {this.state.value}/>
+        <Editor type = {this.handleChange} />
+        <Preview value = {this.state.value} />
       </div>
     )
   }
