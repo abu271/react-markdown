@@ -1,11 +1,6 @@
 import React from 'react'
 
-const Editor = (props) => {
-    return (
-        <div id = "editor">
-            <textarea className="card"  onChange = {props.type}></textarea>
-        </div>
-    )
-}
+const Editor = (props) => <textarea id = "editor" className="card" value = {props.text} onChange = {props.type} />
+
 
 export default Editor
