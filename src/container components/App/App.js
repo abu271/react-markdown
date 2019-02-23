@@ -23,16 +23,18 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <div className="jumbotron container">
+          <h1 id="header"><i className="fab fa-react"></i> ReactDown</h1>
+        </div>
         <div className="row">
-
-          <div className="col-6">
-            <Editor text = {this.state.value} type={this.handleChange} />
+          <div className="col-lg-4 col-sm-12">
+            <p className="title">Typer</p>
+            <Editor text={this.state.value} type={this.handleChange} />
           </div>
-
-          <div className="col-6">
+          <div className="col-lg-8 col-sm-12">
+            <p className="title">Display</p>
             <Preview value={this.state.value} />
           </div>
-
         </div>
       </div>
     )

@@ -1,3 +1,14 @@
-.App {
+.title{
+  font-size: 38px;
   text-align: center;
+}
+
+#header{
+    font-size: 75px;
+  text-align: center;
+}
+
+.jumbotron{
+  margin-top: 25px;
+  background-color: #71C3F3;
 }
