@@ -24,8 +24,14 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Editor type = {this.handleChange} />
-        <Preview value = {this.state.value} />
+        <div className="row">
+          <div  className="col-6">
+            <Editor type={this.handleChange} />
+          </div>
+          <div className="col-6">
+            <Preview value={this.state.value} />
+          </div>
+        </div>
       </div>
     )
   }
