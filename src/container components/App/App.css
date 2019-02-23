@@ -1,10 +1,12 @@
 .title{
   font-size: 38px;
   text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 #header{
-    font-size: 75px;
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+  font-size: 75px;
   text-align: center;
 }
 
