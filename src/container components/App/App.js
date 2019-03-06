@@ -24,7 +24,7 @@ class App extends Component {
     return (
       <div className="container">
         <div className="jumbotron container">
-          <h1 id="header"><i className="fab fa-react"></i> ReactDown</h1>
+          <h1 id="header"><i className="fab fa-react"></i> React-down</h1>
         </div>
         <div className="row">
           <div className="col-lg-4 col-sm-12">
