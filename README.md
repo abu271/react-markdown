@@ -8,9 +8,7 @@ This web app used the following technologies:
 * HTML
 * CSS
 * React.js
-* Babel
-* Webpack
 * Bootstrap 
 
-### Link:
+### Demo:
 [Click here](https://react-down.netlify.com/)
