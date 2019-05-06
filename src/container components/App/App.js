@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import './App.css';
+import './App.css'
 import Editor from '../../presentational components/Editor/Editor'
-import Preview from '../../presentational components/Preview/Preview';
+import Preview from '../../presentational components/Preview/Preview'
 
 
 class App extends Component {
@@ -88,4 +88,4 @@ And here. | Okay. | I think we get it.
 ![React Logo w/ Text](https://goo.gl/Umyytc)
 `
 
-export default App;
+export default App
